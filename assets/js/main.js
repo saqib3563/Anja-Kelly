@@ -37,6 +37,76 @@ $(".about-slider").slick({
   cssEase: "linear",
 });
 
+$(".person-card-slider").slick({
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  dots: false,
+  autoplay: true,
+  arrows: false,
+  responsive: [
+    {
+      breakpoint: 1610,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+      },
+    },
+    {
+      breakpoint: 1028,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+      },
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      },
+    },
+  ],
+});
+
+
+$(".profile-slider").slick({
+  slidesToShow: 6,
+  slidesToScroll: 1,
+  dots: false,
+  autoplay: true,
+  arrows: false,
+  responsive: [
+    {
+      breakpoint: 1610,
+      settings: {
+        slidesToShow: 4,
+        slidesToScroll: 1,
+      },
+    },
+    {
+      breakpoint: 1028,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+      },
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+      },
+    },
+    {
+      breakpoint: 510,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      },
+    },
+  ],
+});
+
 const heartBtn = document.querySelectorAll(".heart-save-btn");
 
 heartBtn.forEach((saveBtn) => {

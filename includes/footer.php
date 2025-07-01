@@ -87,6 +87,8 @@
 <script src="./assets/js/slick.min.js"></script>
 <script src="./assets/js/main.js"></script>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.0/handlebars.min.js"></script>
+
 </body>
 
 </html>

@@ -1,0 +1,638 @@
+@media (max-width: 1600px) {
+  .match-box > div {
+    gap: 55px;
+  }
+  .meet-image-area img {
+    width: 199px;
+    height: 208px;
+  }
+  .meet-box {
+    padding: 100px 55px 80px;
+  }
+  .meet-number-area div {
+    height: 208px;
+  }
+  .meet-number-area div p {
+    font-size: 27px;
+  }
+  .meet-number-area div h6 {
+    font-size: 42px;
+  }
+  .person-card-wrapper {
+    flex-wrap: wrap;
+  }
+  .person-card {
+    width: calc(100% / 3 - 30px);
+    margin-bottom: 30px;
+  }
+  .explore-wrapper .explore-right img {
+    height: 100%;
+  }
+  .about-slide .about-img {
+    width: 255px;
+    top: 225px;
+  }
+  .insta-img {
+    left: 71px;
+    width: 46px !important;
+  }
+  .footer-para br {
+    display: none;
+  }
+}
+
+@media (max-width: 1440px) {
+  .match-box > div {
+    gap: 40px;
+  }
+  .match-box h5 {
+    font-size: 40px;
+  }
+  .chemistry-sec {
+    padding: 0 40px;
+  }
+  .meet-image-area img {
+    width: 185px;
+    height: 195px;
+  }
+  .sec-hd {
+    font-size: 49px;
+  }
+  .hero-banner img {
+    width: 775px;
+  }
+  .banner-hd {
+    font-size: 50px;
+  }
+  .match-box img {
+    width: 53px;
+  }
+  .location-box h5 {
+    font-size: 30px;
+  }
+  .about-slide {
+    padding: 85px 60px 100px;
+  }
+  .about-slide .about-img {
+    width: 210px;
+  }
+  .about-slide p {
+    font-size: 19px;
+    line-height: 26px;
+  }
+  .footer-para,
+  .footer-links li a,
+  .footer-links li p,
+  .bottom-bar p {
+    font-size: 15px;
+  }
+  .footer-links li {
+    margin-bottom: 20px;
+  }
+  .primary-btn,
+  .secondary-btn {
+    padding: 14px 30px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .meet-image-area img {
+    width: 175px;
+    height: 185px;
+  }
+}
+@media (max-width: 1366px) {
+  .person-card {
+    width: calc(100% / 3 - 15px);
+  }
+  .about-sec {
+    padding: 110px 140px;
+  }
+  .profiles-wrapper {
+    flex-wrap: wrap;
+  }
+  .profiles-wrapper .profile-box {
+    width: calc(100% / 3 - 20px);
+  }
+  .profiles-wrapper .profile-box img {
+    margin-bottom: 40px;
+  }
+  .insta-img {
+    left: 141px;
+    width: 55px !important;
+  }
+  .location-box h5 {
+    font-size: 26px;
+  }
+  .location-box p {
+    font-size: 13px;
+  }
+  .Search-area {
+    gap: 14px;
+  }
+  .nav-links {
+    padding-left: 38px !important;
+  }
+  .connect-sec ul {
+    margin-top: 37px;
+    margin-bottom: 67px;
+  }
+  .connect-sec ul li {
+    font-size: 18px;
+    margin-bottom: 26px;
+  }
+  .person-card .person-content .chat-wrapper p,
+  .person-card .person-content .more-desc p {
+    font-size: 14px;
+  }
+  .explore-wrapper .explore-left {
+    padding: 65px 40px;
+  }
+  .person-card .chat-btn {
+    padding: 11px 16px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .hamburger {
+    display: block;
+  }
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 0;
+    flex-direction: column;
+    background: white;
+    width: 260px;
+    padding: 45px 25px !important;
+    transition: 1s;
+    position: fixed;
+    top: 0;
+    left: -1500px;
+    height: 100vh;
+    z-index: 99999;
+    overflow: scroll;
+    justify-content: start;
+  }
+  .active-sidebar {
+    left: 0 !important;
+    transition: 1s;
+  }
+  .nav-links li {
+    width: 100%;
+    text-align: center;
+  }
+  .nav-links li a {
+    background-color: #ff0074;
+    display: block;
+    padding: 10px;
+  }
+  .Search-area .login-box {
+    display: none;
+  }
+  .Search-area {
+    gap: 25px;
+  }
+  .match-box h5 {
+    font-size: 32px;
+  }
+  .meet-box-content-area {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .meet-box-content-area .meet-content-area,
+  .meet-box-content-area .meet-image-area {
+    width: 100%;
+  }
+  .meet-box-content-area .secondary-btn {
+    margin-top: 35px;
+  }
+  .meet-image-area img,
+  .meet-number-area div {
+    width: calc(100% / 3 - 37px);
+    height: 240px;
+  }
+  .meet-number-area {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .connect-sec .row {
+    align-items: end;
+  }
+  .find-sec {
+    padding: 150px 50px 80px;
+  }
+  .explore-sec {
+    padding: 0 50px;
+  }
+  .about-sec {
+    padding: 100px 95px;
+  }
+  .footer {
+    padding: 85px 60px 80px;
+  }
+  .bottom-bar {
+    padding: 35px 60px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .header-wrapper {
+    padding: 11px 40px 0;
+  }
+  .hero-banner img {
+    width: 580px;
+  }
+  .banner-hd {
+    font-size: 40px;
+  }
+  .banner-para {
+    font-size: 15px;
+  }
+  .sec-hd {
+    font-size: 38px;
+  }
+  .match-box h5 {
+    font-size: 25px;
+  }
+  .connect-sec .sec-hd {
+    margin-bottom: 25px;
+  }
+  .connect-sec {
+    padding-top: 120px;
+    padding-bottom: 130px;
+  }
+  .sec-para {
+    font-size: 13px;
+  }
+  .connect-sec ul li {
+    font-size: 16px;
+    margin-bottom: 18px;
+  }
+  .connect-sec ul li img {
+    width: 20px;
+  }
+  .match-box img {
+    width: 40px;
+  }
+  .find-sec .nav-pills .nav-item .nav-link {
+    font-size: 16px;
+    height: 100px;
+    width: 100px;
+  }
+  .find-sec .nav-pills .nav-item {
+    height: 135px;
+    width: 135px;
+  }
+  .person-card {
+    width: calc(100% / 2 - 26px);
+    margin-bottom: 45px;
+  }
+  .explore-left .sec-hd {
+    margin-bottom: 17px;
+  }
+  .explore-left .secondary-btn {
+    margin-top: 31px;
+  }
+  .about-slide p {
+    font-size: 16px;
+  }
+  .about-slide p br {
+    display: none;
+  }
+  .about-slide .about-img {
+    width: 175px;
+  }
+  .insta-img {
+    left: 97px;
+  }
+  .footer-para,
+  .footer-links li a,
+  .footer-links li p,
+  .bottom-bar p {
+    font-size: 14px;
+  }
+  .hero-banner {
+    height: 640px;
+  }
+  .location-box h5 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 991px) {
+  .meet-image-area img,
+  .meet-number-area div {
+    width: calc(100% / 3 - 20px);
+    height: 235px;
+  }
+  .meet-box {
+    padding: 60px 55px 80px;
+  }
+  .sec-hd {
+    font-size: 33px;
+  }
+  .primary-btn,
+  .secondary-btn {
+    padding: 10px 30px;
+    font-size: 14px;
+  }
+  .footer .sec-hd br {
+    display: none;
+  }
+  .footer-links li {
+    margin-bottom: 13px;
+  }
+  .footer .row.justify-content-between .col-lg-4 {
+    margin-bottom: 35px;
+  }
+  .footer {
+    padding: 60px 60px 20px;
+  }
+  .footer-para {
+    margin-top: 25px;
+    margin-bottom: 50px;
+  }
+  .news-letter-form input,
+  .news-letter-form input::placeholder {
+    padding: 10px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .person-card {
+    width: calc(100% / 2 - 15px);
+  }
+  .find-sec {
+    padding: 90px 30px 55px;
+  }
+  .explore-sec {
+    padding: 0 30px;
+  }
+  .explore-wrapper {
+    flex-direction: column;
+  }
+  .explore-wrapper .explore-left,
+  .explore-wrapper .explore-right {
+    width: 100%;
+  }
+  .other-location-wrapper {
+    flex-wrap: wrap;
+  }
+  .other-location-wrapper > div {
+    width: calc(100% / 2 - 10px);
+    margin-bottom: 25px;
+  }
+  .about-sec {
+    padding: 80px 30px;
+  }
+  .about-slide {
+    padding: 55px 50px 55px;
+  }
+  .insta-img {
+    left: 76px;
+  }
+  .footer {
+    padding: 60px 30px 20px;
+  }
+  .bottom-bar {
+    padding: 25px 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+  }
+  .meet-box {
+    padding: 50px 34px;
+  }
+  .meet-image-area img,
+  .meet-number-area div {
+    height: 210px;
+  }
+  .meet-number-area div p {
+    font-size: 22px;
+    line-height: 32px;
+  }
+  .meet-number-area div h6 {
+    font-size: 35px;
+  }
+  .meet-box-content-area .meet-content-area,
+  .explore-wrapper .explore-left {
+    text-align: center;
+  }
+  .meet-box-content-area .secondary-btn,
+  .explore-left .secondary-btn {
+    margin: 35px auto 0;
+  }
+  .meet-box-content-area .meet-content-area .sec-hd {
+    margin-bottom: 26px;
+  }
+  .find-sec .nav-pills .nav-item .nav-link {
+    font-size: 12px;
+    height: 75px;
+    width: 75px;
+  }
+  .find-sec .nav-pills .nav-item {
+    height: 108px;
+    width: 108px;
+  }
+  .match-box > div {
+    gap: 22px;
+  }
+  .match-box {
+    padding: 13px 20px;
+  }
+  .match-box h5 {
+    font-size: 21px;
+  }
+  .connect-sec {
+    padding: 55px 0;
+  }
+  .connect-sec .sec-hd,
+  .connect-sec .sec-para {
+    text-align: center;
+  }
+  .connect-sec ul li {
+    justify-content: center;
+  }
+  .connect-sec .secondary-btn {
+    margin: 0 auto;
+    display: block;
+    width: fit-content;
+  }
+  .connect-sec ul {
+    margin-top: 31px;
+    margin-bottom: 35px;
+  }
+  .hero-banner img {
+    width: 380px;
+  }
+  .hero-banner {
+    justify-content: center;
+    padding: 0;
+  }
+  .header-wrapper {
+    padding: 11px 30px 0;
+  }
+  .logo-wrapper img {
+    width: 180px;
+  }
+  .topbar-slider p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 700px) {
+  .person-card {
+    width: calc(100% / 1 - 0px);
+  }
+}
+@media (max-width: 500px) {
+  .match-box {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .chemistry-sec,
+  .explore-sec {
+    padding: 0 15px;
+  }
+  .header-wrapper {
+    padding: 11px 15px 0;
+  }
+  .find-sec {
+    padding: 90px 15px 25px;
+  }
+  .about-sec {
+    padding: 60px 15px;
+  }
+  .footer {
+    padding: 50px 15px 0px;
+  }
+  .meet-box {
+    padding: 50px 17px;
+  }
+  .meet-image-area,
+  .meet-number-area {
+    gap: 13px;
+  }
+  .meet-image-area img,
+  .meet-number-area div {
+    width: calc(100% / 2 - 7px);
+    height: 152px;
+  }
+  .meet-number-area div p {
+    font-size: 14px;
+    line-height: 23px;
+  }
+  .meet-number-area div h6 {
+    font-size: 28px;
+  }
+  .sec-para,
+  .person-card .person-content .chat-wrapper p,
+  .person-card .person-content .more-desc p {
+    font-size: 12px;
+  }
+  .status,
+  .joinDate {
+    font-size: 11px;
+    padding: 5px 20px;
+  }
+  .status::before {
+    height: 12px;
+    width: 12px;
+    top: 7px;
+  }
+  .person-card .person-content {
+    padding: 20px 18px;
+  }
+  .person-card .person-content h4 {
+    font-size: 18px;
+  }
+  .person-card .chat-btn {
+    font-size: 12px;
+    padding: 9px 16px;
+  }
+  .explore-wrapper .explore-right::before {
+    height: 218px;
+  }
+  .other-location-wrapper > div {
+    width: calc(100% / 1 - 0px);
+    margin-bottom: 25px;
+  }
+  .locat-img {
+    height: 220px;
+  }
+  .about-slide {
+    padding: 30px;
+  }
+  .about-slide p {
+    font-size: 13px;
+  }
+  .about-slide .about-img {
+    width: 115px;
+    right: 16px;
+  }
+  .about-btn-wrapper {
+    margin-top: 25px;
+    margin-left: 0;
+    gap: 19px;
+  }
+  .logo-wrapper img {
+    width: 150px;
+  }
+  .hero-banner img {
+    width: 295px;
+  }
+  .banner-hd {
+    font-size: 25px;
+  }
+  .banner-para,
+  .footer-para,
+  .footer-links li a,
+  .footer-links li p,
+  .bottom-bar p,
+  .secondary-btn {
+    font-size: 13px;
+  }
+  .hero-banner {
+    height: 500px;
+  }
+  .connect-sec ul li {
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+  .find-sec .nav-pills {
+    gap: 12px;
+  }
+  .find-sec .nav-pills .nav-item {
+    height: 100px;
+    width: 100px;
+  }
+  .profiles-wrapper .profile-box {
+    width: calc(100% / 2 - 8px);
+  }
+  .profiles-wrapper .profile-box img {
+    margin-bottom: 35px;
+  }
+  .footer .secondary-btn {
+    font-size: 11px;
+  }
+  .news-letter-form {
+    padding-bottom: 18px;
+  }
+  .footer .sec-hd,
+  .bottom-bar {
+    text-align: center;
+  }
+  .news-letter-form input,
+  .news-letter-form input::placeholder {
+    font-size: 14px;
+  }
+  .footer img {
+    width: 200px;
+  }
+}
+
+@media (max-width: 375px) {
+}

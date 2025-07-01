@@ -116,7 +116,7 @@
                         </div>
                         <div class="chat-wrapper d-flex justify-content-between">
                             <p>Vestibulum suscipit congue <br> ligula, et efficitur mi iaculis ut.</p>
-                            <a href="#" class="chat-btn">Chat Now</a>
+                            <a href="#" class="chat-btn" data-name="Jennifer hales" data-image="assets/images/person-img2.png">Chat Now</a>
                         </div>
                         <div class="more-desc">
                             <p>Age: <span>22</span></p>
@@ -505,4 +505,52 @@
         </div>
     </div>
 </section>
+<!-- Floating Chat Button -->
+<button id="chat-button">💬</button>
+
+<!-- Chat Box -->
+<div id="chat-box">
+    <div class="chat-header">
+        <img src="assets/images/person-img2.png" alt="" id="chat-user-img">
+        <p id="chat-user-name">John Doe</p>
+    </div>
+    <div class="chat-messages">
+        <div class="message them">Hi! Yeah, it's still available, you can get it for $125. Would that work for you?</div>
+        <div class="message you">That's a bit pricey</div>
+        <div class="message you">What about $100?</div>
+        <div class="message them">Deal!</div>
+    </div>
+    <div class="chat-input">
+        <input type="text" placeholder="Say something..." />
+        <button class="send">➤</button>
+    </div>
+</div>
 <?php include 'includes/footer.php' ?>
+
+
+<!-- JavaScript -->
+<script>
+    const chatButton = document.getElementById('chat-button');
+    const chatBox = document.getElementById('chat-box');
+
+    chatButton.addEventListener('click', () => {
+        chatBox.style.display = chatBox.style.display === 'flex' ? 'none' : 'flex';
+    });
+</script>
+
+<script>
+    document.querySelectorAll('.chat-btn').forEach(button => {
+        button.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            const name = this.dataset.name;
+            const img = this.dataset.image;
+
+            const chatBox = document.getElementById('chat-box');
+            chatBox.style.display = 'flex';
+
+            document.getElementById('chat-user-name').textContent = name;
+            document.getElementById('chat-user-img').src = img;
+        });
+    });
+</script>

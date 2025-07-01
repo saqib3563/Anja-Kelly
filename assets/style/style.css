@@ -97,7 +97,7 @@ a {
 
 .primary-btn {
   border: 2px solid var(--white);
-  padding: 21px 30px;
+  padding: 10px 30px;
   color: var(--white);
   border-radius: 50px;
   background-color: transparent;
@@ -114,7 +114,7 @@ a {
 
 .secondary-btn {
   border: 2px solid var(--pink);
-  padding: 21px 30px;
+  padding: 10px 30px;
   color: var(--white);
   border-radius: 50px;
   background-color: var(--pink);
@@ -837,12 +837,16 @@ a {
 }
 
 /* Search Modal */
-
+.modal-header {
+  padding: 16px 46px !important;
+}
 .modal-body,
 .modal-header {
-  padding: 15px 40px !important;
+    padding: 22px 46px !important;
 }
-
+.modal-body {
+  padding-bottom: 40px !important;
+}
 .modal-content {
   background-color: var(--white);
   border-radius: 10px;
@@ -858,25 +862,29 @@ a {
 .modal-content input {
   font-size: 15px;
   padding: 14px 20px;
-  margin-bottom: 45px;
+  margin-bottom: 25px;
 }
-
+.form-control:focus {
+  box-shadow: none !important;
+  border-color: var(--pink) !important;
+}
 .modal-content input:focus-visible {
   box-shadow: none;
 }
 
 .modal-search {
-  background: var(--pink);
-  width: 100%;
-  font-size: 15px;
-  color: var(--white);
-  font-weight: 700;
-  line-height: 20px;
-  text-align: center;
-  border: transparent;
-  height: 40px;
-  font-family: var(--outfit-font);
-  letter-spacing: 1px;
+    background: var(--pink);
+    width: 100%;
+    font-size: 15px;
+    color: var(--white);
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+    border: transparent;
+    height: 46px;
+    border-radius: 5px;
+    font-family: var(--outfit-font);
+    letter-spacing: 1px;
 }
 
 /* Floating chat button */
@@ -909,6 +917,7 @@ a {
   flex-direction: column;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
   z-index: 998;
+  border: 1px solid var(--pink);
 }
 
 #chat-box .chat-header {

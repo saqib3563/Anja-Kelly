@@ -104,7 +104,7 @@
                         </div>
                         <div class="chat-wrapper d-flex justify-content-between">
                             <p>Vestibulum suscipit congue <br> ligula, et efficitur mi iaculis ut.</p>
-                            <a href="#" class="chat-btn" data-name="Jennifer hales" data-image="assets/images/person-img2.png">Chat Now</a>
+                            <a href="#" class="chat-btn" data-name="Jennifer hales" data-image="assets/images/person-img1.png">Chat Now</a>
                         </div>
                         <div class="more-desc">
                             <p>Age: <span>22</span></p>
@@ -131,7 +131,7 @@
                         </div>
                         <div class="chat-wrapper d-flex justify-content-between">
                             <p>Vestibulum suscipit congue <br> ligula, et efficitur mi iaculis ut.</p>
-                            <a href="#" class="chat-btn">Chat Now</a>
+                            <a href="#" class="chat-btn" data-name="Alexandrea Amina" data-image="assets/images/person-img4.png">Chat Now</a>
                         </div>
                         <div class="more-desc">
                             <p>Age: <span>22</span></p>
@@ -158,7 +158,7 @@
                         </div>
                         <div class="chat-wrapper d-flex justify-content-between">
                             <p>Vestibulum suscipit congue <br> ligula, et efficitur mi iaculis ut.</p>
-                            <a href="#" class="chat-btn">Chat Now</a>
+                            <a href="#" class="chat-btn" data-name="Jennifer hales" data-image="assets/images/person-img1.png">Chat Now</a>
                         </div>
                         <div class="more-desc">
                             <p>Age: <span>22</span></p>
@@ -185,7 +185,7 @@
                         </div>
                         <div class="chat-wrapper d-flex justify-content-between">
                             <p>Vestibulum suscipit congue <br> ligula, et efficitur mi iaculis ut.</p>
-                            <a href="#" class="chat-btn">Chat Now</a>
+                            <a href="#" class="chat-btn" data-name="Alexandrea Amina" data-image="assets/images/person-img4.png">Chat Now</a>
                         </div>
                         <div class="more-desc">
                             <p>Age: <span>22</span></p>

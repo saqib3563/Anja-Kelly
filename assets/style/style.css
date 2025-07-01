@@ -298,7 +298,7 @@ a {
   background-color: var(--gray);
   padding: 100px 80px 80px;
   border-radius: 20px;
-  border: 1px solid #ed1c2426;
+  border: 1px solid #ED1C2426;
 }
 
 .meet-box-content-area {
@@ -436,7 +436,6 @@ a {
     padding: 0 10px;
 }
 .profile-box  img {
-  width: 100%;
 }
 .person-card {
   /* width: calc(100% / 4 - 30px); */
@@ -587,7 +586,7 @@ a {
   background-color: var(--gray);
   padding: 100px 80px;
   border-radius: 20px;
-  border: 1px solid #ed1c2426;
+  border: 1px solid #ED1C2426;
 }
 
 .explore-wrapper .explore-right {
@@ -669,7 +668,7 @@ a {
   border-radius: 20px;
   padding: 105px 60px 115px;
   position: relative;
-  border: 1px solid #ed1c2426;
+  border: 1px solid #ED1C2426;
 }
 
 .about-slide .about-img {
@@ -696,7 +695,7 @@ a {
 
 .about-btn-wrapper {
   margin-top: 60px;
-  margin-left: 70px;
+  margin-left: 70px;  
   display: flex;
   gap: 38px;
   align-items: center;
@@ -753,7 +752,7 @@ a {
 .footer {
   padding: 95px 140px 115px;
   background-color: var(--gray);
-  border: 1px solid #ed1c2426;
+  border: 1px solid #ED1C2426;
 }
 
 .news-letter-form {
@@ -887,6 +886,7 @@ a {
     letter-spacing: 1px;
 }
 
+
 /* Floating chat button */
 #chat-button {
   position: fixed;
@@ -992,3 +992,4 @@ a {
 #chat-box input:focus {
   outline: none;
 }
+

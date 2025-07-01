@@ -31,7 +31,7 @@ $(".about-slider").slick({
   prevArrow: $(".about-button-prev"),
   nextArrow: $(".about-button-next"),
   dots: false,
-  autoplay: true,
+  autoplay: false,
   speed: 500,
   fade: true,
   cssEase: "linear",

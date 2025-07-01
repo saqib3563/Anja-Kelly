@@ -97,7 +97,7 @@ a {
 
 .primary-btn {
   border: 2px solid var(--white);
-  padding: 21px 30px;
+  padding: 10px 30px;
   color: var(--white);
   border-radius: 50px;
   background-color: transparent;
@@ -114,7 +114,7 @@ a {
 
 .secondary-btn {
   border: 2px solid var(--pink);
-  padding: 21px 30px;
+  padding: 10px 30px;
   color: var(--white);
   border-radius: 50px;
   background-color: var(--pink);
@@ -836,12 +836,16 @@ a {
 }
 
 /* Search Modal */
-
+.modal-header {
+  padding: 16px 46px !important;
+}
 .modal-body,
 .modal-header {
-  padding: 15px 40px !important;
+    padding: 22px 46px !important;
 }
-
+.modal-body {
+  padding-bottom: 40px !important;
+}
 .modal-content {
   background-color: var(--white);
   border-radius: 10px;
@@ -857,23 +861,135 @@ a {
 .modal-content input {
   font-size: 15px;
   padding: 14px 20px;
-  margin-bottom: 45px;
+  margin-bottom: 25px;
 }
-
+.form-control:focus {
+  box-shadow: none !important;
+  border-color: var(--pink) !important;
+}
 .modal-content input:focus-visible {
   box-shadow: none;
 }
 
 .modal-search {
-  background: var(--pink);
-  width: 100%;
-  font-size: 15px;
-  color: var(--white);
-  font-weight: 700;
-  line-height: 20px;
-  text-align: center;
-  border: transparent;
-  height: 40px;
-  font-family: var(--outfit-font);
-  letter-spacing: 1px;
+    background: var(--pink);
+    width: 100%;
+    font-size: 15px;
+    color: var(--white);
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+    border: transparent;
+    height: 46px;
+    border-radius: 5px;
+    font-family: var(--outfit-font);
+    letter-spacing: 1px;
 }
+
+
+/* Floating chat button */
+#chat-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: var(--pink);
+  color: var(--white);
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  font-size: 28px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+}
+
+/* Chat box styling */
+#chat-box {
+  position: fixed;
+  bottom: 90px;
+  right: 20px;
+  width: 300px;
+  background: #1e1e1e;
+  border-radius: 10px;
+  overflow: hidden;
+  display: none;
+  flex-direction: column;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  z-index: 998;
+  border: 1px solid var(--pink);
+}
+
+#chat-box .chat-header {
+  background: #2c2c2c;
+  padding: 10px;
+  color: var(--white);
+  font-weight: bold;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+#chat-box .chat-header p {
+  margin-bottom: 0;
+}
+#chat-box .chat-header img {
+  width: 40px;
+  border-radius: 100%;
+  border: 1px solid var(--pink);
+}
+
+#chat-box .chat-messages {
+  background: #1e1e1e;
+  padding: 10px;
+  height: 300px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.message {
+  max-width: 80%;
+  padding: 8px 12px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.you {
+  background: var(--pink);
+  color: var(--white);
+  align-self: flex-end;
+}
+
+.them {
+  background: #333;
+  color: var(--white);
+  align-self: flex-start;
+}
+
+#chat-box .chat-input {
+  display: flex;
+  border-top: 1px solid #444;
+}
+
+#chat-box input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  background: #2c2c2c;
+  color: var(--white);
+}
+
+#chat-box button.send {
+  background: var(--pink);
+  color: var(--white);
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+#chat-box input:focus {
+  outline: none;
+}
+

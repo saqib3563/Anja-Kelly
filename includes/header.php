@@ -45,14 +45,14 @@
                     <li><a class="hidden-links" href="#">Chat Now</a></li>
                 </ul>
                 <div class="Search-area">
-                    <div class="search-box">
+                    <!-- <div class="search-box">
                         <a data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </div> -->
+                    <div class="login-box">
+                        <a href="#" class="primary-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Login</a>
                     </div>
                     <div class="login-box">
-                        <a href="#" class="primary-btn">Sign Up</a>
-                    </div>
-                    <div class="login-box">
-                        <a href="#" class="secondary-btn">Chat Now</a>
+                        <a href="#" class="secondary-btn">Sign Up</a>
                     </div>
                     <div class="hamburger" id="menu-btn">
                         <i class="fa-solid fa-bars"></i>

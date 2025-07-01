@@ -65,16 +65,20 @@
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="">Elite Mentor Dating</h5>
+                <h5 class="modal-title" id="">Login</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
                 <form role="form" action="">
                     <div class="confirmationField mb-3">
-                        <label for="" class="form-label">Search What You Want</label>
-                        <input class="form-control" placeholder="Type Here To Search" type="text" required>
+                        <label for="" class="form-label">User Name</label>
+                        <input class="form-control" placeholder="User Name" type="text" required>
                     </div>
-                    <button class="modal-search w-100" type="submit">Search Now</button>
+                    <div class="confirmationField mb-3">
+                        <label for="" class="form-label">Password</label>
+                        <input class="form-control" placeholder="Password" type="password" required>
+                    </div>
+                    <button class="modal-search w-100" type="submit">Submit</button>
                 </form>
             </div>
         </div>

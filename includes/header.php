@@ -41,8 +41,8 @@
                     <li><a class="" href="#">Women</a></li>
                     <li><a class="" href="#">About</a></li>
                     <li><a class="" href="#">Blogs</a></li>
-                    <li><a class="hidden-links" href="#">Sign Up</a></li>
-                    <li><a class="hidden-links" href="#">Chat Now</a></li>
+                    <li><a class="hidden-links" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Login</a></li>
+                    <!-- <li><a class="hidden-links" href="#">Chat Now</a></li> -->
                 </ul>
                 <div class="Search-area">
                     <!-- <div class="search-box">
@@ -52,7 +52,7 @@
                         <a href="#" class="primary-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Login</a>
                     </div>
                     <div class="login-box">
-                        <a href="#" class="secondary-btn">Sign Up</a>
+                        <a href="sign-up.php" class="secondary-btn">Sign Up</a>
                     </div>
                     <div class="hamburger" id="menu-btn">
                         <i class="fa-solid fa-bars"></i>

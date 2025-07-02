@@ -82,14 +82,17 @@ a {
 .hamburger {
   display: none;
 }
+
 .hamburger i {
   color: var(--white);
   font-size: 24px;
   cursor: pointer;
 }
+
 .header-wrapper {
   padding: 11px 100px 0;
 }
+
 .header-wrapper .header {
   display: flex;
   justify-content: space-between;
@@ -276,7 +279,7 @@ a {
   margin-bottom: 18px;
 }
 
-.match-box > div {
+.match-box>div {
   display: flex;
   align-items: center;
   gap: 125px;
@@ -346,6 +349,7 @@ a {
   text-align: center;
   padding: 10px;
 }
+
 .meet-number-area div img {
   width: 100%;
   height: 100%;
@@ -356,7 +360,9 @@ a {
   margin-bottom: 0;
   font-size: 39px;
   font-weight: 400;
-  color: var(--pink);
+   background: linear-gradient(90deg, #ff6a00, #ee0979, #00c6ff); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .meet-number-area div p {
@@ -421,31 +427,46 @@ a {
   color: var(--pink);
   transition: 0.6s;
 }
+
 /* .profile-slider-wrapper {
   padding-top: 50px !important;
 } */
- .profile-slider-sec {
+.profile-slider-sec {
   padding-top: 100px !important;
- }
+}
 
 .person-card-wrapper {
   display: flex;
   justify-content: space-between;
 }
+
 .profile-box {
-    padding: 0 10px;
+  padding: 0 10px;
 }
-.profile-box  img {
-}
+
+.profile-box img {}
+
 .person-card {
   /* width: calc(100% / 4 - 30px); */
   margin: 0 10px;
 }
 
+.meet-image-area img {
+  border-radius: 20px;
+  width: calc(100% / 3 - 20px);
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
 .person-card .image-box {
   position: relative;
 }
+
 .person-card .image-box img {
+  width: 100%;
+}
+
+.profile-box img {
   width: 100%;
 }
 
@@ -502,6 +523,7 @@ a {
   font-weight: 500;
   margin-bottom: 0;
 }
+
 .person-card .person-content h6 {
   color: var(--white);
   font-family: var(--outfit-font);
@@ -521,7 +543,9 @@ a {
   font-weight: 400;
   margin-bottom: 0;
 }
-
+.bottom-bar p a:hover {
+  color: var(--pink );
+}
 .person-card .chat-btn {
   background-color: var(--pink);
   color: var(--black);
@@ -560,6 +584,9 @@ a {
 .person-card:hover .person-content {
   background-color: var(--pink);
   transition: 0.5s;
+}
+.person-card:hover .heart-save-btn i {
+  color: #000000;
 }
 
 .person-card:hover .chat-btn {
@@ -640,12 +667,12 @@ a {
   width: 100%;
 }
 
-.other-location-wrapper > div {
+.other-location-wrapper>div {
   width: calc(100% / 4 - 30px);
   position: relative;
 }
 
-.other-location-wrapper > div::before {
+.other-location-wrapper>div::before {
   content: "";
   position: absolute;
   background-image: url(../images/shadow-img.png);
@@ -695,7 +722,7 @@ a {
 
 .about-btn-wrapper {
   margin-top: 60px;
-  margin-left: 70px;  
+  margin-left: 70px;
   display: flex;
   gap: 38px;
   align-items: center;
@@ -725,6 +752,7 @@ a {
   display: flex;
   justify-content: space-between;
 }
+
 .profiles-wrapper .profile-box {
   width: calc(100% / 6 - 20px);
 }
@@ -839,13 +867,16 @@ a {
 .modal-header {
   padding: 16px 46px !important;
 }
+
 .modal-body,
 .modal-header {
-    padding: 22px 46px !important;
+  padding: 22px 46px !important;
 }
+
 .modal-body {
   padding-bottom: 40px !important;
 }
+
 .modal-content {
   background-color: var(--white);
   border-radius: 10px;
@@ -863,27 +894,29 @@ a {
   padding: 14px 20px;
   margin-bottom: 25px;
 }
+
 .form-control:focus {
   box-shadow: none !important;
   border-color: var(--pink) !important;
 }
+
 .modal-content input:focus-visible {
   box-shadow: none;
 }
 
 .modal-search {
-    background: var(--pink);
-    width: 100%;
-    font-size: 15px;
-    color: var(--white);
-    font-weight: 700;
-    line-height: 20px;
-    text-align: center;
-    border: transparent;
-    height: 46px;
-    border-radius: 5px;
-    font-family: var(--outfit-font);
-    letter-spacing: 1px;
+  background: var(--pink);
+  width: 100%;
+  font-size: 15px;
+  color: var(--white);
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+  border: transparent;
+  height: 46px;
+  border-radius: 5px;
+  font-family: var(--outfit-font);
+  letter-spacing: 1px;
 }
 
 
@@ -933,6 +966,7 @@ a {
 #chat-box .chat-header p {
   margin-bottom: 0;
 }
+
 #chat-box .chat-header img {
   width: 40px;
   border-radius: 100%;
@@ -992,4 +1026,3 @@ a {
 #chat-box input:focus {
   outline: none;
 }
-
